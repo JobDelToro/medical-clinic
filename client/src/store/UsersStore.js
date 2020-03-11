@@ -31,7 +31,7 @@ class UsersStore {
 		this.sessionStatus = fromPromise(sessionPromise);
 		const res = await sessionPromise;
 		alert(`updated clinician ${res.data.firstName}`);
-		history.goBack();
+		history.push('/');
 	}
 	
 	setClinician = clinician => {
