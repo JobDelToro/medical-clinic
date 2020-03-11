@@ -47,7 +47,7 @@ WITH /API ENDPOINT#####
 
 IN ROOT DIRECTORY RUN:
 
-$npm run dev
+$ npm run dev
 
 IMPORTANT: THIS IS THE BEST WAY.
 
@@ -66,9 +66,9 @@ $ npm run start:prod
 
 FOR FRONTEND:
 
-go to /client directory run:
+# go to /client directory run:
 
-$npm start
+$ npm start
 ```
 
 ## Test
