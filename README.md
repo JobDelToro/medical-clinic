@@ -31,12 +31,29 @@
 ## Installation
 
 ```bash
+1. On root directory
+$ npm install
+
+2. go to /client directory
 $ npm install
 ```
 
 ## Running the app
 
 ```bash
+
+### THIS IS THE BEST WAY TO RUN THE APP BECAUSE IT WAS CREATED A PROXY FROM FRONT-END TO BACK-END WITH /API ENDPOINT#####
+
+IN ROOT DIRECTORY RUN:
+
+$npm run dev
+
+IMPORTANT: THIS IS THE BEST WAY.
+
+###########################################################################
+
+FOR BACKEND:
+
 # development
 $ npm run start
 
@@ -45,6 +62,12 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+FOR FRONTEND:
+
+go to /client directory run:
+
+$npm start
 ```
 
 ## Test
